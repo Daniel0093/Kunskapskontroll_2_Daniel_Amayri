@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="Css/style.css">
+    <script src="https://kit.fontawesome.com/976d5d14ad.js" crossorigin="anonymous"></script>
+    <title>Weather.now</title>
+</head>
+<body>
+
+    <div id="container">
+
+        <div class="user-interface">
+
+            <form id='weather-form'>
+                <label for='StadensNamn'>Enter City</label>
+                <input type='text' id="stadensNamn" placeholder = 'f.ex: Sweden'>
+                <button type='submit' id="sök-button"><i class="fas fa-search"></i></button>
+            </form>
+
+        </div>
+
+        <div class="user-experience">
+            <p id="description"></p>
+            <p id="myTemp"></p>
+            <img src="" alt="" id="wIcon">
+            <p id="tempCh"></p>
+            <p id="myWind"></p>
+            <p id="myHumidity"></p>
+        </div>
+
+    </div>
+
+    <script src="JavaScript/main.js"></script>
+</body>
+</html>
